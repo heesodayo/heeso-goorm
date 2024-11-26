@@ -30,9 +30,12 @@ h3{color: #000;
     line-height: normal;
 }
 #menu {display: flex;
+    justify-content: space-between;
     align-items: flex-start;
+    align-content: flex-start;
     gap: 20px;
     align-self: stretch;
+    flex-wrap: wrap;
 }
 button {display: flex;
     height: 520px;
