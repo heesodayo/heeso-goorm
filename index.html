@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's make kiosk!</title>
+    <link rel="stylesheet" href="./heeso-goorm/asset/kioskEasy.css">
+</head>
+<body>
+    <img src="./heeso-goorm/asset/logo.png" alt="logo" class="logoImg">
+    <header>
+        <h1>반갑습니다 맥도날드 입니다</h1>
+        <h3>원하시는 버거를 선택하세요</h3>
+    </header>
+    
+    <div id="menu">
+        <button data-name="더블 1955®버거" data-price="6800"> <box><img src="./heeso-goorm/asset/buger1.png" alt="더블 1955®버거" class="bugerImg"></box><span>더블 1955®버거</span> <br> 6,800원 </button>
+        <button data-name="더블 맥스파이시® 상하이 버거" data-price="7300"> <box><img src="./heeso-goorm/asset/buger2.png" alt="더블 맥스파이시® 상하이 버거" class="bugerImg"></box><span>더블 맥스파이시® 상하이 버거</span> <br> 7,300원 </button>
+        <button data-name="더블 쿼터파운더® 치즈 버거" data-price="6500"> <box><img src="./heeso-goorm/asset/buger3.png" alt="더블 쿼터파운더® 치즈 버거" class="bugerImg"></box><span>더블 쿼터파운더® 치즈 버거</span> <br> 6,500원 </button>
+    </div>
+    <footer>
+        <p>Total: <span id="total">0</span> 원</p>
+        <div id="cart"></div>
+    </footer>
+    <script src="./heeso-goorm/asset/kioskEasy.js"></script>
+</body>
+</html>

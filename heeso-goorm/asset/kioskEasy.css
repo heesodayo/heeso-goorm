@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body {display: flex;
+    padding: 80px 100px 64px 100px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    align-self: stretch;
+}
+.logoImg {width: 82px;
+    height: 71.943px;
+} 
+h1 {color: #000;
+    font-family: "Noto Sans";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+h3{color: #000;
+    font-family: "Noto Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#menu {display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+}
+button {display: flex;
+    height: 520px;
+    padding-bottom: 56px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 0 0;
+    color: #000;
+    text-align: center;
+    font-family: "Noto Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 40px;
+    background: #F8F8F6;
+    border: none;
+}
+button:hover {display: flex;
+    height: 520px;
+    padding-bottom: 56px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 0 0;
+    color: #000;
+    text-align: center;
+    font-family: "Noto Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 40px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), #F8F8F6;
+    border: none;
+}
+
+button:active {display: flex;
+    height: 520px;
+    padding-bottom: 56px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 0 0;
+    color: #000;
+    text-align: center;
+    font-family: "Noto Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 40px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), #F8F8F6;
+    transform: scale(0.95); /* 클릭 시 살짝 작아지는 효과 */
+    border: none;
+}
+
+button > span {color: #000;
+    text-align: center;
+    font-family: "Noto Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+button > box {display: flex;
+    height: 337px;
+    padding: 15px 22.527px 15px 22.909px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    align-self: stretch;
+}
+box .bugerImg {display: flex;
+    height: 337px;
+    padding: 15px 21.937px 15px 22.309px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    align-self: stretch;
+}
+
+footer {display: flex;
+    height: 192.057px;
+    padding: 0px 120px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    align-self: stretch;
+    border-radius: 20px;
+    background: #FFBC0D;
+}
+footer > p {color: #000;
+    font-family: "Noto Sans";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+#cart {display: flex;
+    padding-left: 32px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+    border-left: 1px solid #E5E5E5;
+    color: #000;
+    font-family: "Noto Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
