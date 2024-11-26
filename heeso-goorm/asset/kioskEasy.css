@@ -13,7 +13,7 @@ body {display: flex;
     align-self: stretch;
 }
 .logoImg {width: 82px;
-    height: 71.943px;
+    height: 72px;
 } 
 h1 {color: #000;
     font-family: "Noto Sans";
@@ -112,7 +112,7 @@ button > box {display: flex;
 }
 box .bugerImg {display: flex;
     height: 337px;
-    padding: 15px 21.937px 15px 22.309px;
+    padding: 15px 22px 15px 22px;
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
