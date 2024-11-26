@@ -17,6 +17,9 @@ body {
     width: 82px;
     height: 72px;
 } 
+header {
+    line-height: 0.7;
+}
 h1 {
     color: #000;
     font-family: "Noto Sans";
